@@ -1,0 +1,71 @@
+System_TagColor=2
+System_UseReportedGS=0
+
+System_SchengenArea=LT
+System_SchengenArea_Exclude=A,B,C,D,E,F,G,H,K,LA,LB,LC,LD,LE,LF,LG,LH,LI,LJ,LK,LL,LM,LN,LO,LP,LQ,LR,LS,LU,LV,LW,LX,LY,LZ,M,N,O,P,R,S,T,U,V,W,Y,Z
+
+System_State_OnFreq=ON
+System_State_StartUp=START
+System_State_Push=PUSH
+System_State_Taxi_In=TAXI
+System_State_Taxi_Out=TAXI
+System_State_LineUp=LINUP
+System_State_Depa=DEPART
+System_State_DeIce=ICE
+System_State_Parked=PARKED
+
+Color_Arrival=255,255,0
+Color_Departure=0,255,255
+Color_RawVideo=0,100,0
+Color_Unknown=255,255,255
+Color_Warning=255,165,0
+Color_WBackground=135,135,135
+Color_New_Stand=255,255,0
+Color_APP_Background=52,58,62
+
+Equip_ProMode=0
+GroundLabel=1
+
+Maps_Font=Lucida Sans Unicode
+System_GlobalMenu_Font=Lucida Sans Unicode
+System_Lists_Font=Lucida Sans Unicode
+System_Lists_FontSize=12
+System_Windows_Font=Lucida Sans Unicode
+System_GlobalMenu_FontSize=11
+GroundLabel_Font=Lucida Sans Unicode
+AppLabel_Font=Lucida Sans Unicode
+TowerLabel_Font=Lucida Sans Unicode
+GroundLabel_Filter_NoState=0
+GroundLabel_Filter_Parked=0
+GroundLabel_Filter_OnFreq=0
+GroundLabel_Filter_Stby=0
+
+GroundLabel_FontSize=11
+TowerLabel_FontSize=11
+AppLabel_FontSize=10
+
+Label=GND:ARR:0:ALRT,0,0:COMM,0,1 
+Label=GND:ARR:1:CALLSIGN,0,0:STAND,0,1 
+
+Label=GND:DEP:0:ALRT,0,0:ASSR_E,0,1:COMM,0,0 
+Label=GND:DEP:1:CALLSIGN,0,0:DRWY,0,1
+Label=GND:DEP:2:
+
+Label=APW:ARR:0:
+Label=APW:ARR:1:CALLSIGN,0,0:AFL,0,2:GS,0,2:COMM,0,2
+Label=APW:ARR:2:
+
+Label_AFL=0,0,1,1
+Label_AFL+VS=1,0,0,0
+Label_ARWY=0,0,0,0
+Label_ATYP=0,1,0,0
+Label_DEP=0,0,0,0
+Label_DRWY=0,1,0,0
+Label_RMK=0,1,0,0
+Label_STAND=0,1,0,0
+Label_GS=1,0,0,1
+
+RawVideo=0
+RawVideo_Brightness=70
+RawVideo_Afterglow=70
+RawVideo_MaxHistory=0

@@ -1,0 +1,146 @@
+PROFILE
+PROFILE:LROP_DEL:20:2
+ATIS2:$radioname | PDC [LROP]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LROP_GND:20:3
+ATIS2:$radioname | PDC [LROP]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LROP_TWR:50:4
+ATIS2:$radioname | PDC [LROP]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LROP_APP:150:5
+ATIS2:$radioname | PDC [LROP]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LROP_F_APP:150:5
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LRBS_GND:20:3
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRBS_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRTR_GND:20:3
+ATIS2:$radioname | PDC [LRTR]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRTR_TWR:50:4
+ATIS2:$radioname | PDC [LRTR]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LUKK_GND:20:3
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LUKK_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRAR_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRAR_APP:150:5
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LRCK_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRCK_APP:150:5
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LRCL_TWR:50:4
+ATIS2:$radioname | PDC [LRCL]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRTM_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRSB_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRCL_APP:150:5
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LUKK_APP:150:5
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LRBC_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRIA_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRSV_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRTC_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRBV_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRCV_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LROD_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRSM_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRBM_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LUBM_TWR:50:4
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LRBB_L_CTR:350:6
+ATIS2:$radioname | CPDLC [LRBL]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LRBB_A_CTR:350:6
+ATIS2:$radioname | CPDLC [LRBA]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LRBB_N_CTR:350:6
+ATIS2:$radioname | CPDLC [LRBN]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LRBB_U_CTR:350:6
+ATIS2:$radioname | CPDLC [LRBU]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LRBB_H_CTR:350:6
+ATIS2:$radioname | CPDLC [LRBH]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LUUU_CTR:350:6
+ATIS2:$radioname
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+END
