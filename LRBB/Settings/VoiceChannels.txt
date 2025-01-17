@@ -29,6 +29,7 @@ VOICE
 AG:LRAR_APP Arad Approach:123.530:novoice:LRAR_APP
 AG:LRAR_TWR Arad Tower:118.230:novoice:LRAR_TWR
 AG:LRBB_A_CTR Bucharest Radar:121.180:novoice:LRBB_A_CTR
+AG:LRBB_B_CTR Bucharest Radar:130.230:novoice:LRBB_B_CTR
 AG:LRBB_H_CTR Bucharest Radar:134.380:novoice:LRBB_H_CTR
 AG:LRBB_I_CTR Bucharest Information:129.400:novoice:LRBB_I_CTR
 AG:LRBB_L_CTR Bucharest Radar:122.030:novoice:LRBB_L_CTR
