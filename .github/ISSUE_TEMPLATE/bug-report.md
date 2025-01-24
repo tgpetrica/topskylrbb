@@ -7,13 +7,13 @@ assignees: tgpetrica
 
 ---
 
-### **Describe the issue you have found**
-
----
-
 ### **User Information**
 **CID (User ID):**
 <!-- Enter your CID (user ID) here -->
+
+---
+
+### **Describe the issue you have found**
 
 ---
 
