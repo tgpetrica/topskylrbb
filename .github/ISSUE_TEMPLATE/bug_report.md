@@ -13,11 +13,10 @@ assignees: tgpetrica
 
 ---
 
-### **Describe the issue you have found**
+### **Describe the Situation**
+Provide a detailed explanation of what happened. Be as specific as possible. Include steps to reproduce the issue, if applicable.
 
 ---
 
 ### **Attach Screenshots or Pictures**
 If possible, attach screenshots or pictures that help explain the issue.
-
----
