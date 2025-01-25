@@ -139,6 +139,10 @@ PROFILE:LRBB_H_CTR:350:6
 ATIS2:$radioname | CPDLC [LRBH]
 ATIS3:We <3 feedback vats.im/ro/atcfb
 ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LRBB_B_CTR:350:6
+ATIS2:$radioname | CPDLC [LRBB]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
 PROFILE:LUUU_CTR:350:6
 ATIS2:$radioname
 ATIS3:We <3 feedback vats.im/ro/atcfb
