@@ -11,8 +11,16 @@ PROFILE:LROP_TWR:50:4
 ATIS2:$radioname | PDC [LROP]
 ATIS3:We <3 feedback vats.im/ro/atcfb
 ATIS4:Charts and Sceneries on rovacc.ro
+PROFILE:LROP_T_TWR:50:4
+ATIS2:$radioname | PDC [LROP] | SOLO Trainee
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Charts and Sceneries on rovacc.ro
 PROFILE:LROP_APP:150:5
 ATIS2:$radioname | PDC [LROP]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LROP_T_APP:150:5
+ATIS2:$radioname | PDC [LROP] | SOLO Trainee
 ATIS3:We <3 feedback vats.im/ro/atcfb
 ATIS4:Coverage at vatglasses.uk/romania
 PROFILE:LROP_F_APP:150:5
@@ -121,6 +129,10 @@ ATIS3:We <3 feedback vats.im/ro/atcfb
 ATIS4:Charts and Sceneries on rovacc.ro
 PROFILE:LRBB_L_CTR:350:6
 ATIS2:$radioname | CPDLC [LRBL]
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LRBB_T_CTR:350:6
+ATIS2:$radioname | CPDLC [LRBL] | SOLO Trainee
 ATIS3:We <3 feedback vats.im/ro/atcfb
 ATIS4:Coverage at vatglasses.uk/romania
 PROFILE:LRBB_A_CTR:350:6
