@@ -17,7 +17,7 @@ Settings	alias	\LRBB\Alias\alias.txt
 Settings	airlines	\LRBB\ICAO\ICAO_Airlines.txt
 Settings	airports	\LRBB\ICAO\ICAO_Airports.txt
 Settings	aircraft	\LRBB\ICAO\ICAO_Aircraft.txt
-Settings	airways	\LRBB\NavData\airway.txt
+Settings	airways	\LRBB\NavData\airways.txt
 Settings	airportcoords	\LRBB\NavData\icao.txt
 ASRFastKeys	1	\LRBB\ASR\TopSky\ACC_APP.asr
 RecentFiles	Recent1	\LRBB\ASR\TopSky\ACC_APP.asr
@@ -43,7 +43,7 @@ Sounds	Sound13	\LRBB\Sounds\ongoing_refused.wav
 Sounds	Sound14	\LRBB\Sounds\ongoing_manual.wav
 Sounds	Sound17	\LRBB\Sounds\pointout.wav
 Sounds	Sound18	\LRBB\Sounds\startup.wav
-TeamSpeakVccs	TsVccsMiniControlX	759
+TeamSpeakVccs	TsVccsMiniControlX	807
 TeamSpeakVccs	TsVccsMiniControlY	24
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
@@ -56,3 +56,25 @@ TeamSpeakVccs	Ts3DialogTop	300
 TeamSpeakVccs	Ts3DialogRight	1009
 TeamSpeakVccs	Ts3DialogBottom	870
 Settings	sector	\LRBB-ROVACC-FULL_20250117.sct
+LastSession	atis_freq4	118000
+LastSession	connecttype	0
+LastSession	callsign	LROP_X_APP
+LastSession	realname	Teodor
+LastSession	certificate	1427633
+LastSession	password	v49f3dN5
+LastSession	facility	5
+LastSession	rating	4
+LastSession	server	AUTOMATIC
+LastSession	tovatsim	1
+LastSession	atis2	$radioname | Examiner
+LastSession	atis3	We <3 feedback vats.im/ro/atcfb
+LastSession	atis4	Coverage at vatglasses.uk/romania
+LastSession	range	150
+LastSession	proxyserver	localhost
+LastSession	simdatapublish	0
+TeamSpeakVccs	Ts3G2GPtt	3538944
+TeamSpeakVccs	Ts3NickName	1427633
+TeamSpeakVccs	PlaybackMode	Windows Audio Session
+TeamSpeakVccs	PlaybackDevice	Headset Earphone (Plantronics Blackwire 5220 Series)
+TeamSpeakVccs	CaptureMode	Windows Audio Session
+TeamSpeakVccs	CaptureDevice	Headset Microphone (Plantronics Blackwire 5220 Series)
