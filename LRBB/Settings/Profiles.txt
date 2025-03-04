@@ -159,4 +159,8 @@ PROFILE:LUUU_CTR:350:6
 ATIS2:$radioname
 ATIS3:We <3 feedback vats.im/ro/atcfb
 ATIS4:Coverage at vatglasses.uk/romania
+PROFILE:LROP_X_APP:150:5
+ATIS2:$radioname | Examiner
+ATIS3:We <3 feedback vats.im/ro/atcfb
+ATIS4:Coverage at vatglasses.uk/romania
 END
