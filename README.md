@@ -1,6 +1,7 @@
 # ⚠️ DO NOT DOWNLOAD THIS REPOSITORY DIRECTLY
 This repository is **under active development**. Files in `main` may be incomplete, unstable, or not ready for operational use.
 
+![](https://img.shields.io/github/last-commit/tgpetrica/topskylrbb?style=for-the-badge)
 ---
 
 ## 📦 How to get the sector file
