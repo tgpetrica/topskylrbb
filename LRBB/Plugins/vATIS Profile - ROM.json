@@ -2,7 +2,7 @@
   "name": "LRBB",
   "id": "3b0443fe-55df-445d-b96b-f805e5651b74",
   "updateUrl": "https://raw.githubusercontent.com/tgpetrica/topskylrbb/refs/heads/main/LRBB/Plugins/vATIS%20Profile%20-%20ROM.json",
-  "updateSerial": 2026062601,
+  "updateSerial": 2026062901,
   "stations": [
     {
       "id": "92ae7256-f67b-4fbb-b74b-dc51f0143cdd",
@@ -8052,7 +8052,7 @@
       },
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
-      "frequency": 122375000,
+      "frequency": 118500000,
       "idsEndpoint": "",
       "useDecimalTerminology": false,
       "atisVoice": {
