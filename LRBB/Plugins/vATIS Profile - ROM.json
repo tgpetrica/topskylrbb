@@ -2162,13 +2162,13 @@
         },
         {
           "variableName": "DEP_FREQ_APB",
-          "text": "AFTER 2000FT, CONTACT APP FREQ 119.415.",
-          "voice": "AFTER *2000 FEET, CONTACT APP ON FREQ 119 DECIMAL 415."
+          "text": "DEP FREQ 119.415.",
+          "voice": "DEPARTURE FREQ 119 DECIMAL 415."
         },
         {
           "variableName": "DEP_FREQ_RS",
-          "text": "AFTER 2000FT, CONTACT RADAR FREQ 122.030. ",
-          "voice": "AFTER PASSING *2000 FEET , CONTACT RADAR ON FREQ 122 DECIMAL 030. "
+          "text": "DEP FREQ 122.030. ",
+          "voice": "DEPARTURE FREQ 122 DECIMAL 030. "
         },
         {
           "variableName": "HVY_ARR_DEP",
@@ -4328,13 +4328,13 @@
         },
         {
           "variableName": "DEP_FREQ_APB",
-          "text": "AFTER 2000FT, CONTACT APP FREQ 119.415.",
-          "voice": "AFTER PASSING *2000 FEET, CONTACT APP ON FREQ 119 DECIMAL 415."
+          "text": "DEP FREQ 119.415.",
+          "voice": "DEPARTURE FREQ 119 DECIMAL 415."
         },
         {
           "variableName": "DEP_FREQ_RS",
-          "text": "AFTER 2000FT, CONTACT RADAR FREQ 122.030.",
-          "voice": "AFTER PASSING *2000 FEET, CONTACT RADAR ON FREQ 122 DECIMAL 030."
+          "text": "DEP FREQ 122.030.",
+          "voice": "DEPARTURE FREQ 122 DECIMAL 030."
         },
         {
           "variableName": "DEP_FREQ_ADV",
