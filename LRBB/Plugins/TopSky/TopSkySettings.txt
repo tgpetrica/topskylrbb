@@ -70,7 +70,7 @@ HTTP_NOTAM_Server=vatsimserv.tgpetrica.ro
 HTTP_NOTAM_Page_Prefix=/notam/get-all?loc=
 HTTP_NOTAM_Page_Suffix=
 
-Label_ADES_DefaultValue=0000
+Label_ADES_Default=0000
 Label_AHDG_Default=1110
 Label_AHDG_HideDctIfCOPX=0
 Label_AHDG_Point_Label=2
