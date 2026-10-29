@@ -2,7 +2,7 @@
   "name": "LRBB D-ATIS",
   "id": "1654a0ec-2bad-49a7-966d-49a7bd4e8498",
   "updateUrl": "https://raw.githubusercontent.com/tgpetrica/topskylrbb/refs/heads/main/LRBB/Plugins/vATIS%20Profile%20-%20ROM.json",
-  "updateSerial": 2026102902,
+  "updateSerial": 2026102903,
   "stations": [
     {
       "id": "1b564ca8-214b-49f9-a9cc-3ea734e6d37a",
@@ -2560,8 +2560,13 @@
         },
         {
           "text": "LOW VISIBILITY PROCEDURES IN OPERATION. ",
-          "ordinal": 20,
+          "ordinal": 21,
           "weatherCondition": "(rvr <= 550m OR visibility <= 800m OR ceiling <= 200ft)",
+          "enabled": true
+        },
+        {
+          "text": "NEW SID AND STAR PROCEDURES. ADVISE IF YOU DO NOT HAVE THE LATEST AIRAC ON FIRST CONTACT.",
+          "ordinal": 22,
           "enabled": true
         }
       ],
