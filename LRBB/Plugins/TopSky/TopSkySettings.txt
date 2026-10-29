@@ -370,3 +370,4 @@ Color_Standard_RDF=255,255,255
 
 Window_PDC_SetASSR=1
 Window_PDC_SetCFL=1
+Window_NOTAM=1
