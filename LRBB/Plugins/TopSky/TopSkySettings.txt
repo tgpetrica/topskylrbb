@@ -65,8 +65,10 @@ HTTP_GRIB_Latitude_Min=43
 HTTP_GRIB_Longitude_Max=31
 HTTP_GRIB_Longitude_Min=19
 
-HTTP_NOTAM_Server=https://www.notams.faa.gov/
-HTTP_NOTAM_Page_Prefix=dinsQueryWeb/queryRetrievalMapAction.do?reportType=Raw&retrieveLocId=
+HTTP_NOTAM_Source=0
+HTTP_NOTAM_Server=vatsimserv.tgpetrica.ro
+HTTP_NOTAM_Page_Prefix=/notam/get-all?loc=
+HTTP_NOTAM_Page_Suffix=
 
 Label_ADES_DefaultValue=0000
 Label_AHDG_Default=1110
