@@ -1,8 +1,8 @@
 {
   "name": "LRBB D-ATIS",
-  "id": "bc475830-788d-41a9-80d4-dfcf3289e698",
+  "id": "1654a0ec-2bad-49a7-966d-49a7bd4e8498",
   "updateUrl": "https://raw.githubusercontent.com/tgpetrica/topskylrbb/refs/heads/main/LRBB/Plugins/vATIS%20Profile%20-%20ROM.json",
-  "updateSerial": 2026102901,
+  "updateSerial": 2026102902,
   "stations": [
     {
       "id": "1b564ca8-214b-49f9-a9cc-3ea734e6d37a",
@@ -9786,7 +9786,24 @@
       },
       "presets": [
         {
+          "id": "2d91ffb3-a7ad-4ab9-8c0e-14970d8a2b03",
+          "ordinal": 0,
+          "name": "LRTR CLOSED",
+          "airportConditions": "",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. AERODROME IS CLOSED. CONTROL ZONE IS DOWNGRADED TO CLASS GOLF AIRSPACE. NO AIR TRAFFIC CONTROL SERVICE IS AVAILABLE. END OF INFORMATION\r\n",
+          "externalGenerator": {
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
+          }
+        },
+        {
           "id": "401f8c50-b887-486c-bf25-c3a1cd417044",
+          "ordinal": 2,
           "name": "LRTR 11",
           "airportConditions": "",
           "notams": "",
@@ -9803,6 +9820,7 @@
         },
         {
           "id": "1d897e51-7a28-410f-b5eb-32ed83af59c3",
+          "ordinal": 3,
           "name": "LRTR 29",
           "airportConditions": "",
           "notams": "",
@@ -9819,6 +9837,7 @@
         },
         {
           "id": "0352e6d8-ed86-4413-926c-bad4365cf654",
+          "ordinal": 4,
           "name": "LRTR 11 depa / 29 arr",
           "airportConditions": "",
           "notams": "",
