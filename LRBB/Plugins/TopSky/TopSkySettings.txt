@@ -49,6 +49,9 @@ Equip_UseCodes=1
 Equip_ModeS=WZLCISG
 Equip_Use_SUR_Mode_S=0
 
+FAST=1
+FAST_Seq_Source=1
+
 FlightLeg_AssumeTime=5
 FlightLeg_AutoShow=0
 FlightLeg_Label_RFL=1
