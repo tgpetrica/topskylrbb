@@ -2,8 +2,8 @@
 //             ROVACC | FIR LRBB, LUUU | TopSky | Airspace
 // ##################################################################
 
-// Version v0.1
-// Update Date 27 NOV 2025
+// Version v0.2
+// Update Date 02 NOV 2026
 
 
 // ##################################################################
@@ -38,7 +38,7 @@ TA_CIRCLE:7000:N045.41.12.657:E025.41.20.643:23
 
 
 // ##################################################################
-//                 INITIAL CLIMB ALTITUDES v0.1
+//                 INITIAL CLIMB ALTITUDES v0.2
 // ##################################################################
 
 
@@ -50,12 +50,12 @@ CFL_VIA:SOKRU:BUKEL
 INITIAL_CFL:27000
 CFL_FRUL:I
 CFL_ADEP:LROP:LRBS
-CFL_VIA:DENAK:NETUL:IDARU
+CFL_VIA:DENAK:NETUL:ZEZUZ
 
 INITIAL_CFL:27000
 CFL_FRUL:I
 CFL_ADEP:LROP:LRBS
-CFL_VIA:TIMUR:OSTOV:BULEN
+CFL_VIA:TIMUR:GOL:NIKTI:SOMOV:BULEN
 
 INITIAL_CFL:28000
 CFL_FRUL:I
