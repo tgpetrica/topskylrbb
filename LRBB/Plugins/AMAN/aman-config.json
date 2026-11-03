@@ -2,7 +2,7 @@
     "openAutomatically": true,
     "timelines": {
         "OP08L": {
-            "targetFixes": ["DILAS"],
+            "targetFixes": ["DOGUV"],
             "viaFixes": [
                 "DENAK",
                 "IDARU",
@@ -17,7 +17,7 @@
             "destinationAirports": ["LROP"]
         },
         "OP08R": {
-            "targetFixes": ["OBELA"],
+            "targetFixes": ["OMABU"],
             "viaFixes": [
                 "DENAK",
                 "IDARU",
@@ -32,7 +32,7 @@
             "destinationAirports": ["LROP"]
         },
         "OP26L": {
-            "targetFixes": ["LEVTA"],
+            "targetFixes": ["LEHID"],
             "viaFixes": [
                 "DENAK",
                 "IDARU",
@@ -47,7 +47,7 @@
             "destinationAirports": ["LROP"]
         },
         "OP26R": {
-            "targetFixes": ["RARIT"],
+            "targetFixes": ["RUFID"],
            "viaFixes": [
                 "DENAK",
                 "IDARU",
@@ -62,7 +62,7 @@
             "destinationAirports": ["LROP"]
         },
         "BS07": {
-            "targetFixes": ["ADULI"],
+            "targetFixes": ["ARHOP"],
             "viaFixes": [
                 "ABRUT",
                 "DENAK",
@@ -90,6 +90,46 @@
             "tagLayout": "extended",
             "defaultTimeSpan": 45,
             "destinationAirports": ["LRBS"]
+        },
+        "KK08": {
+            "targetFixes": ["RICAP"],
+            "viaFixes": [
+                "ANEDO",
+                "BUSES",
+                "ERADA",
+                "LIPTA",
+                "MURKA",
+                "NERIS",
+                "RUVER",
+                "SURAP",
+                "SUVUR",
+                "TURSA",
+                "TUVAP",
+                "UNIRA"
+            ],
+            "tagLayout": "extended",
+            "defaultTimeSpan": 45,
+            "destinationAirports": ["LUKK"]
+        },
+        "KK26": {
+            "targetFixes": ["LEMWU"],
+            "viaFixes": [
+                "ANEDO",
+                "BUSES",
+                "ERADA",
+                "LIPTA",
+                "MURKA",
+                "NERIS",
+                "RUVER",
+                "SURAP",
+                "SUVUR",
+                "TURSA",
+                "TUVAP",
+                "UNIRA"
+            ],
+            "tagLayout": "extended",
+            "defaultTimeSpan": 45,
+            "destinationAirports": ["LUKK"]
         }
     },
     "tagLayouts": {
