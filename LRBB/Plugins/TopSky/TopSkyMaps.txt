@@ -2,8 +2,8 @@
 ; AUTO-GENERATED FILE
 ; Source: sector builder by tgpetrica
 ; Changes made directly to this file will be lost during the next build.
-; Compiled at 2026-10-30T15:56:56
-//VERSION:2026103001
+; Compiled at 2026-11-05T16:44:49
+//VERSION:2026110501
 
 ; ===== 00-general/001-colors =====
 //COLORDEF:sectorborder:0:0:0
@@ -4158,6 +4158,13 @@ COLOR:white
 FONTSIZE:=:10
 TEXT:N046.41.04.068:E028.53.27.185:2500
 TEXT:N046.48.41.564:E028.53.08.634:1500
+
+COLOR:waypoint
+FONTSIZE:=:12
+SYMBOL:TRI:N046.46.54.001:E028.10.00.001
+TEXT/LB:N046.46.54.001:E028.10.00.001:POGAV
+SYMBOL:TRI:N047.34.27.998:E029.04.00.001
+TEXT/LB:N047.34.27.998:E029.04.00.001:VOLVO
 
 ; ===== 05-TMA-Chisinau/0511-CTR-sector =====
 MAP:CTR_LUKK
