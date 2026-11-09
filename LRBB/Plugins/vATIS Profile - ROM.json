@@ -2,7 +2,7 @@
   "name": "LRBB D-ATIS",
   "id": "2ba1b44b-de3b-45d5-8995-892495e50520",
   "updateUrl": "https://raw.githubusercontent.com/tgpetrica/topskylrbb/refs/heads/main/LRBB/Plugins/vATIS%20Profile%20-%20ROM.json",
-  "updateSerial": 2026110301,
+  "updateSerial": 2026110901,
   "stations": [
     {
       "id": "1b564ca8-214b-49f9-a9cc-3ea734e6d37a",
@@ -141,14 +141,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}M",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{km}KM",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -173,7 +184,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS TDZ {visibility}M",
+            "text": "VIS TDZ {visibility}",
             "voice": "VISIBILITY TUCHDOWN ZONE {visibility}."
           }
         },
@@ -2492,7 +2503,7 @@
         {
           "text": "DEP_FREQ_RS",
           "ordinal": 7,
-          "onlineCondition": "LRBB_CTR OR LRBB__CTR AND NOT (LROP_APP OR LROP__APP)",
+          "onlineCondition": "(LRBB_CTR OR LRBB__CTR) AND NOT (LROP_APP OR LROP__APP)",
           "enabled": true
         },
         {
@@ -2692,14 +2703,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}M",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{km}KM",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -4968,7 +4990,7 @@
         {
           "text": "DEP_FREQ_RS",
           "ordinal": 3,
-          "onlineCondition": "LRBB_CTR OR LRBB__CTR AND NOT (LROP_APP OR LROP__APP)",
+          "onlineCondition": "(LRBB_CTR OR LRBB__CTR) AND NOT (LROP_APP OR LROP__APP)",
           "enabled": true
         },
         {
@@ -5158,14 +5180,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}M",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{km}KM",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -7468,13 +7501,13 @@
         {
           "text": "DEP_FREQ_RW",
           "ordinal": 4,
-          "onlineCondition": "LRBB_W_CTR OR LRBB__W_CTR AND NOT (LRCL_APP OR LRCL__APP)",
+          "onlineCondition": "(LRBB_W_CTR OR LRBB__W_CTR) AND NOT (LRCL_APP OR LRCL__APP)",
           "enabled": true
         },
         {
           "text": "DEP_FREQ_RS",
           "ordinal": 5,
-          "onlineCondition": "LRBB_CTR OR LRBB__CTR AND NOT (LRBB_W_CTR OR LRBB__W_CTR OR LRCL_APP OR LRCL__APP)",
+          "onlineCondition": "(LRBB_CTR OR LRBB__CTR) AND NOT (LRBB_W_CTR OR LRBB__W_CTR OR LRCL_APP OR LRCL__APP)",
           "enabled": true
         },
         {
@@ -7664,14 +7697,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}M",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{km}KM",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -9817,7 +9861,7 @@
           "ordinal": 0,
           "name": "LRTR CLOSED",
           "airportConditions": "",
-          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [TIME]. AERODROME IS CLOSED. CONTROL ZONE IS DOWNGRADED TO CLASS GOLF AIRSPACE. NO AIR TRAFFIC CONTROL SERVICE IS AVAILABLE. END OF INFORMATION\r\n",
+          "template": "MET_REP_LRTR\r\n[ATIS_CODE]\r\n[TIME]\r\nAERODROME IS CLOSED.\r\nCONTROL ZONE IS DOWNGRADED\r\nTO CLASS GOLF AIRSPACE.\r\nNO AIR TRAFFIC CONTROL\r\nSERVICE IS AVAILABLE.\r\n[WIND]\r\n[VIS]\r\n[RVR]\r\n[PRESENT_WX] [RECENT_WX]\r\n[CLOUDS]\r\n[TEMP] [DEW]\r\n[PRESSURE]\r\n[TREND]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -9976,13 +10020,13 @@
         {
           "text": "DEP_FREQ_RW",
           "ordinal": 3,
-          "onlineCondition": "LRBB_W_CTR OR LRBB__W_CTR AND NOT (LRAR_APP OR LRAR__APP)",
+          "onlineCondition": "(LRBB_W_CTR OR LRBB__W_CTR) AND NOT (LRAR_APP OR LRAR__APP)",
           "enabled": true
         },
         {
           "text": "DEP_FREQ_RS",
           "ordinal": 4,
-          "onlineCondition": "LRBB_CTR OR LRBB__CTR AND NOT (LRBB_W_CTR OR LRBB__W_CTR OR LRAR_APP OR LRAR__APP)",
+          "onlineCondition": "(LRBB_CTR OR LRBB__CTR) AND NOT (LRBB_W_CTR OR LRBB__W_CTR OR LRAR_APP OR LRAR__APP)",
           "enabled": true
         },
         {
@@ -10178,14 +10222,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}M",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{km}KM",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -12675,14 +12730,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}M",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{km}KM",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -14954,13 +15020,13 @@
         {
           "text": "DEP_FREQ_RW",
           "ordinal": 4,
-          "onlineCondition": "LRBB_W_CTR OR LRBB__W_CTR AND NOT (LRCL_APP OR LRCL__APP)",
+          "onlineCondition": "(LRBB_W_CTR OR LRBB__W_CTR) AND NOT (LRCL_APP OR LRCL__APP)",
           "enabled": true
         },
         {
           "text": "DEP_FREQ_RS",
           "ordinal": 5,
-          "onlineCondition": "LRBB_CTR OR LRBB__CTR AND NOT (LRCL_APP OR LRCL__APP OR LRBB_W_CTR OR LRBB__W_CTR)",
+          "onlineCondition": "(LRBB_CTR OR LRBB__CTR) AND NOT (LRCL_APP OR LRCL__APP OR LRBB_W_CTR OR LRBB__W_CTR)",
           "enabled": true
         },
         {
@@ -15150,14 +15216,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}M",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{km}KM",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -17464,13 +17541,13 @@
         {
           "text": "DEP_FREQ_RW",
           "ordinal": 4,
-          "onlineCondition": "LRBB_W_CTR OR LRBB__W_CTR AND NOT (LRCL_APP OR LRCL__APP)",
+          "onlineCondition": "(LRBB_W_CTR OR LRBB__W_CTR) AND NOT (LRCL_APP OR LRCL__APP)",
           "enabled": true
         },
         {
           "text": "DEP_FREQ_RS",
           "ordinal": 5,
-          "onlineCondition": "LRBB_CTR OR LRBB__CTR AND NOT (LRBB_W_CTR OR LRBB__W_CTR OR LRCL_APP OR LRCL__APP)",
+          "onlineCondition": "(LRBB_CTR OR LRBB__CTR) AND NOT (LRBB_W_CTR OR LRBB__W_CTR OR LRCL_APP OR LRCL__APP)",
           "enabled": true
         },
         {
@@ -17660,14 +17737,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}M",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{km}KM",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -20063,19 +20151,19 @@
         {
           "text": "DEP_FREQ_UU",
           "ordinal": 5,
-          "onlineCondition": "LUUU_CTR OR LUUU__CTR AND NOT (LUKK_APP OR LUKK__APP)",
+          "onlineCondition": "(LUUU_CTR OR LUUU__CTR) AND NOT (LUKK_APP OR LUKK__APP)",
           "enabled": true
         },
         {
           "text": "DEP_FREQ_RE",
           "ordinal": 6,
-          "onlineCondition": "LRBB_E_CTR OR LRBB__E_CTR AND NOT (LUUU_CTR OR LUUU__CTR OR LUKK_APP OR LUKK__APP)",
+          "onlineCondition": "(LRBB_E_CTR OR LRBB__E_CTR) AND NOT (LUUU_CTR OR LUUU__CTR OR LUKK_APP OR LUKK__APP)",
           "enabled": true
         },
         {
           "text": "DEP_FREQ_RS",
           "ordinal": 7,
-          "onlineCondition": "LRBB_CTR OR LRBB__CTR AND NOT (LRBB_E_CTR OR LRBB__E_CTR OR LUKK_APP OR LUKK__APP OR LUUU_CTR OR LUUU__CTR)",
+          "onlineCondition": "(LRBB_CTR OR LRBB__CTR) AND NOT (LRBB_E_CTR OR LRBB__E_CTR OR LUKK_APP OR LUKK__APP OR LUUU_CTR OR LUUU__CTR)",
           "enabled": true
         },
         {
@@ -20265,14 +20353,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}M",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{km}KM",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -22580,13 +22679,13 @@
         {
           "text": "DEP_FREQ_RE",
           "ordinal": 4,
-          "onlineCondition": "LRBB_E_CTR OR LRBB__E_CTR AND NOT (LRCK_APP OR LRCK__APP)",
+          "onlineCondition": "(LRBB_E_CTR OR LRBB__E_CTR) AND NOT (LRCK_APP OR LRCK__APP)",
           "enabled": true
         },
         {
           "text": "DEP_FREQ_RS",
           "ordinal": 5,
-          "onlineCondition": "LRBB_CTR OR LRBB__CTR AND NOT (LRCK_APP OR LRCK__APP OR LRBB_E_CTR OR LRBB__E_CTR)",
+          "onlineCondition": "(LRBB_CTR OR LRBB__CTR) AND NOT (LRCK_APP OR LRCK__APP OR LRBB_E_CTR OR LRBB__E_CTR)",
           "enabled": true
         },
         {
@@ -22776,14 +22875,25 @@
             "W": "W",
             "NW": "NW"
           },
-          "unlimitedVisibilityVoice": "visibility 10 kilometers",
-          "unlimitedVisibilityText": "VIS 10KM",
+          "formatRules": [
+            {
+              "fromMeters": 0,
+              "text": "{raw}M",
+              "voice": "{m} meters"
+            },
+            {
+              "fromMeters": 5001,
+              "text": "{km}KM",
+              "voice": "{km} kilometers"
+            },
+            {
+              "fromMeters": 9999,
+              "text": "10KM",
+              "voice": "10 kilometers"
+            }
+          ],
           "cavokVoice": "CAVOK",
           "cavokText": "CAVOK",
-          "includeVisibilitySuffix": true,
-          "metersCutoff": 5000,
-          "metersUnitVoice": "meters",
-          "kilometersUnitVoice": "kilometers",
           "fractionVoice": {
             "M1/4SM": "less than one quarter.",
             "1 1/8SM": "one and one eighth.",
@@ -25081,7 +25191,7 @@
         {
           "text": "DEP_FREQ_RS",
           "ordinal": 4,
-          "onlineCondition": "LRBB_CTR OR LRBB__CTR AND NOT (LRBB_E_CTR OR LRBB__E_CTR)",
+          "onlineCondition": "(LRBB_CTR OR LRBB__CTR) AND NOT (LRBB_E_CTR OR LRBB__E_CTR)",
           "enabled": true
         },
         {
@@ -25122,7 +25232,7 @@
         },
         {
           "text": "LVP_IN_OPERATION",
-          "ordinal": 10,
+          "ordinal": 11,
           "weatherCondition": "(rvr <= 550m OR visibility <= 800m OR ceiling <= 200ft)",
           "enabled": true
         }
