@@ -2,7 +2,7 @@
   "name": "LRBB D-ATIS",
   "id": "2ba1b44b-de3b-45d5-8995-892495e50520",
   "updateUrl": "https://raw.githubusercontent.com/tgpetrica/topskylrbb/refs/heads/main/LRBB/Plugins/vATIS%20Profile%20-%20ROM.json",
-  "updateSerial": 2026110901,
+  "updateSerial": 2026111401,
   "stations": [
     {
       "id": "1b564ca8-214b-49f9-a9cc-3ea734e6d37a",
@@ -2746,7 +2746,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS TDZ {visibility}M",
+            "text": "VIS TDZ {visibility}",
             "voice": "VISIBILITY TUCHDOWN ZONE {visibility}."
           }
         },
@@ -5223,7 +5223,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS TDZ {visibility}M",
+            "text": "VIS TDZ {visibility}",
             "voice": "VISIBILITY TUCHDOWN ZONE {visibility}."
           }
         },
@@ -7740,7 +7740,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS TDZ {visibility}M",
+            "text": "VIS TDZ {visibility}",
             "voice": "VISIBILITY TUCHDOWN ZONE {visibility}."
           }
         },
@@ -10265,7 +10265,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS TDZ {visibility}M",
+            "text": "VIS TDZ {visibility}",
             "voice": "VISIBILITY TUCHDOWN ZONE {visibility}."
           }
         },
@@ -12773,7 +12773,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS TDZ {visibility}M",
+            "text": "VIS TDZ {visibility}",
             "voice": "VISIBILITY TUCHDOWN ZONE {visibility}."
           }
         },
@@ -15259,7 +15259,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS TDZ {visibility}M",
+            "text": "VIS TDZ {visibility}",
             "voice": "VISIBILITY TUCHDOWN ZONE {visibility}."
           }
         },
@@ -17780,7 +17780,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS TDZ {visibility}M",
+            "text": "VIS TDZ {visibility}",
             "voice": "VISIBILITY TUCHDOWN ZONE {visibility}."
           }
         },
@@ -20129,7 +20129,7 @@
           "text": "VOR_APP_ONREQ",
           "ordinal": 1,
           "weatherCondition": "NOT (RVR <= 550m OR visibility <= 800m OR ceiling <= 800ft )",
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "BIRDS",
@@ -20396,7 +20396,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS TDZ {visibility}M",
+            "text": "VIS TDZ {visibility}",
             "voice": "VISIBILITY TUCHDOWN ZONE {visibility}."
           }
         },
@@ -22918,7 +22918,7 @@
             "7/8SM": "seven eighths."
           },
           "template": {
-            "text": "VIS TDZ {visibility}M",
+            "text": "VIS TDZ {visibility}",
             "voice": "VISIBILITY TUCHDOWN ZONE {visibility}."
           }
         },
