@@ -1,0 +1,335 @@
+{
+    "rwy_file": "../../../LRBB-ROVACC-FULL_20261030000041-261101-0004.rwy",
+    "no_factor_wind": 5,
+    "airports": [
+        {
+            "icao": "LROP",
+            "no_factor_wind": 8,
+            "runways": [
+                {
+                    "id": "08L",
+                    "true_heading": 84,
+                    "linked_designators": ["08R"],
+                    "blocks": ["26L", "26R"]
+                },
+                {
+                    "id": "08R",
+                    "true_heading": 84,
+                    "linked_designators": ["08L"],
+                    "blocks": ["26L", "26R"]
+                },
+                {
+                    "id": "26L",
+                    "true_heading": 264,
+                    "linked_designators": ["26R"],
+                    "blocks": ["08L", "08R"]
+                },
+                {
+                    "id": "26R",
+                    "true_heading": 264,
+                    "linked_designators": ["26L"],
+                    "blocks": ["08L", "08R"]
+                }
+            ],
+            "preferred_arr": ["08L", "08R", "26R", "26L"],
+            "preferred_dep": ["08R", "08L", "26L", "26R"]
+        },
+        {
+            "icao": "LRTR",
+            "runways": [
+                {
+                    "id": "11",
+                    "true_heading": 115
+                },
+                {
+                    "id": "29",
+                    "true_heading": 295
+                }
+            ],
+            "no_factor_wind": 13,
+            "preferred_arr": [
+                "29",
+                "11"
+            ],
+            "preferred_dep": [
+                "11",
+                "29"
+            ]
+        },
+        {
+            "icao": "LRBS",
+            "runways": [
+                {
+                    "id": "07",
+                    "true_heading": 76
+                },
+                {
+                    "id": "25",
+                    "true_heading": 256
+                }
+            ],
+            "use_metar_from": "LROP",
+            "no_factor_wind": 8,
+            "preferred_arr": [
+                "25",
+                "07"
+            ],
+            "preferred_dep": [
+                "25",
+                "07"
+            ]
+        },
+        {
+            "icao": "LRCL",
+            "runways": [
+                {
+                    "id": "07",
+                    "true_heading": 77
+                },
+                {
+                    "id": "25",
+                    "true_heading": 257
+                }
+            ],
+            "no_factor_wind": 7
+        },
+        {
+            "icao": "LRTM",
+            "runways": [
+                {
+                    "id": "07",
+                    "true_heading": 78
+                },
+                {
+                    "id": "25",
+                    "true_heading": 258
+                }
+            ],
+            "no_factor_wind": 7
+        },
+        {
+            "icao": "LRSB",
+            "runways": [
+                {
+                    "id": "09",
+                    "true_heading": 93
+                },
+                {
+                    "id": "27",
+                    "true_heading": 273
+                }
+            ],
+            "no_factor_wind": 7
+        },
+        {
+            "icao": "LRAR",
+            "runways": [
+                {
+                    "id": "09",
+                    "true_heading": 93
+                },
+                {
+                    "id": "27",
+                    "true_heading": 273
+                }
+            ],
+            "no_factor_wind": 7,
+            "preferred_arr": [
+                "09",
+                "27"
+            ],
+            "preferred_dep": [
+                "27",
+                "09"
+            ]
+        },
+        {
+            "icao": "LRCK",
+            "runways": [
+                {
+                    "id": "18",
+                    "true_heading": 184
+                },
+                {
+                    "id": "36",
+                    "true_heading": 4
+                }
+            ],
+            "no_factor_wind": 13,
+            "preferred_arr": [
+                "18",
+                "36"
+            ],
+            "preferred_dep": [
+                "36",
+                "18"
+            ]
+        },
+        {
+            "icao": "LRBC",
+            "runways": [
+                {
+                    "id": "16",
+                    "true_heading": 164
+                },
+                {
+                    "id": "34",
+                    "true_heading": 344
+                }
+            ],
+            "no_factor_wind": 8,
+            "preferred_arr": [
+                "34",
+                "16"
+            ],
+            "preferred_dep": [
+                "16",
+                "34"
+            ]
+        },
+        {
+            "icao": "LRBV",
+            "runways": [
+                {
+                    "id": "03",
+                    "true_heading": 35
+                },
+                {
+                    "id": "21",
+                    "true_heading": 215
+                }
+            ],
+            "no_factor_wind": 8,
+            "preferred_arr": [
+                "21",
+                "03"
+            ],
+            "preferred_dep": [
+                "03",
+                "21"
+            ]
+        },
+        {
+            "icao": "LROD",
+            "runways": [
+                {
+                    "id": "01",
+                    "true_heading": 14
+                },
+                {
+                    "id": "19",
+                    "true_heading": 194
+                }
+            ]
+        },
+        {
+            "icao": "LRBM",
+            "runways": [
+                {
+                    "id": "09",
+                    "true_heading": 97
+                },
+                {
+                    "id": "27",
+                    "true_heading": 277
+                }
+            ]
+        },
+        {
+            "icao": "LRSM",
+            "runways": [
+                {
+                    "id": "01",
+                    "true_heading": 16
+                },
+                {
+                    "id": "19",
+                    "true_heading": 196
+                }
+            ]
+        },
+        {
+            "icao": "LRCV",
+            "runways": [
+                {
+                    "id": "08",
+                    "true_heading": 86
+                },
+                {
+                    "id": "26",
+                    "true_heading": 266
+                }
+            ],
+            "preferred_arr": [
+                "26",
+                "08"
+            ],
+            "preferred_dep": [
+                "08",
+                "26"
+            ]
+        },
+        {
+            "icao": "LRIA",
+            "runways": [
+                {
+                    "id": "14",
+                    "true_heading": 145
+                },
+                {
+                    "id": "32",
+                    "true_heading": 325
+                }
+            ]
+        },
+        {
+            "icao": "LRSV",
+            "runways": [
+                {
+                    "id": "16",
+                    "true_heading": 166
+                },
+                {
+                    "id": "34",
+                    "true_heading": 346
+                }
+            ]
+        },
+        {
+            "icao": "LRTC",
+            "runways": [
+                {
+                    "id": "16",
+                    "true_heading": 166
+                },
+                {
+                    "id": "34",
+                    "true_heading": 346
+                }
+            ]
+        },
+        {
+            "icao": "LUKK",
+            "runways": [
+                {
+                    "id": "08",
+                    "true_heading": 88
+                },
+                {
+                    "id": "26",
+                    "true_heading": 268
+                }
+            ],
+            "no_factor_wind": 9,
+            "preferred_arr": [
+                "08",
+                "26"
+            ],
+            "preferred_dep": [
+                "26",
+                "08"
+            ]
+        }
+    ],
+    "assumed_dir": 270
+}
